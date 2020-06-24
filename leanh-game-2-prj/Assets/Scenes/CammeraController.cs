@@ -20,10 +20,14 @@ public class CammeraController : MonoBehaviour
             //Physics.Raycast(tia (ray) , điểm va chạm (out hit), khoảng cách lớn nhất (1000) )
             if (Physics.Raycast(ray, out hit, 1000 ))
             {
+                //Nếu va chạm với vật thể có collider với tag là Cube
                 if (hit.collider.gameObject.tag == "Cube")
                 {
+                    //Vẽ tia đi từ mốc ray.origin đến điểm va chạm hit.point
                     Debug.DrawLine(ray.origin, hit.point);
+
                     Debug.Log(hit.point);
+                    //dịch chuyển Cube
                     cube.transform.position = new Vector3(hit.point.x, 0.5f, hit.point.z);
                 }
       
