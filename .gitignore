@@ -1,0 +1,17 @@
+# Add any directories, files, or patterns you don't want to be tracked by version controlLibrary
+Library
+Build
+Temp
+Recordings
+Screenshots
+obj
+.vs
+.gradle
+.DS_Store
+*.csproj
+*.pidb
+*.sln
+*.unityproj
+*.userprefs
+spine-csharp.csproj.meta
+spine-csharp.sln.meta
