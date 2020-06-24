@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 194697990}
   - component: {fileID: 194697989}
   - component: {fileID: 194697988}
-  m_Layer: 4
+  m_Layer: 9
   m_Name: Quad
   m_TagString: Quad
   m_Icon: {fileID: 0}
@@ -404,6 +404,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cube: {fileID: 1486779148}
+  layer:
+    serializedVersion: 2
+    m_Bits: 512
 --- !u!1 &1486779148
 GameObject:
   m_ObjectHideFlags: 0
