@@ -6,6 +6,9 @@ TagManager:
   tags:
   - Cube
   - Quad
+  - Cube1
+  - Cube2
+  - Cube3
   layers:
   - Default
   - TransparentFX
